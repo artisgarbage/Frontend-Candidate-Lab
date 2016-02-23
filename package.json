@@ -1,0 +1,44 @@
+{
+  "name": "AnthonyChavezFeLab",
+  "version": "1.0.0",
+  "description": "Anthony Chavez, frontend candidate lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artisgarbage/Frontend-Candidate-Lab.git"
+  },
+  "author": "Anthony Chavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artisgarbage/Frontend-Candidate-Lab/issues"
+  },
+  "homepage": "https://github.com/artisgarbage/Frontend-Candidate-Lab",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "connect": "^3.3.3",
+    "connect-livereload": "^0.5.2",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-cache": "^0.2.8",
+    "gulp-if": "^1.2.5",
+    "gulp-jscs": "^2.0.0",
+    "gulp-jshint": "^1.9.4",
+    "gulp-livereload": "^3.8.0",
+    "gulp-load-plugins": "^0.9.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-size": "^1.2.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-stylus": "^2.0.5",
+    "gulp-uglify": "^1.1.0",
+    "gulp-useref": "^1.1.1",
+    "jscs": "^2.0.0",
+    "jshint-stylish": "^1.0.1",
+    "opn": "^1.0.1",
+    "serve-index": "^1.6.3",
+    "serve-static": "^1.9.2",
+    "wiredep": "^2.2.2"
+  }
+}
