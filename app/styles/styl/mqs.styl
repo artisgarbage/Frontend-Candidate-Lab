@@ -12,23 +12,6 @@
             top 88px 
             left 605px
 
-
-@media (min-width: 660px) and (max-width: 1010px)
-    .polaroid
-        &#celebration
-            left 6%
-        
-        &#signing
-            top 28%
-            left 37%
-        
-        &#date
-            top 48%
-            
-        &#rando
-            top 10%
-
-
 @media (max-width: 660px)
     .polaroid
         &#celebration
@@ -44,13 +27,19 @@
             left 11%
             
         &#rando
-            left 9%
+            right -40%
             top 67%
 
 
-@media (max-height: 990px) and (max-width: 1100px)
+@media (max-height: 990px) and (max-width: 900px)
     body
         overflow-y auto
+        
+    #mainPolaroids
+        height 750px
+            
+    .callout
+        position relative
         
     .polaroid
         &#celebration
@@ -62,5 +51,38 @@
             left 245px
         
         &#date
-            top 350px
+            top 420px
             left 49px
+            
+        &#rando
+            
+        &#shoe
+            right -150px
+            
+@media (max-width: 500px)
+    body
+        overflow auto
+
+    #mainPolaroids
+        height 950px
+        
+
+    .polaroid
+        &#celebration
+            top 28px
+            left 33px
+        
+        &#signing
+            top 305px
+            left 165px
+        
+        &#date
+            top 540px
+            left 20px
+            
+        &#rando
+            top 97%
+        
+        &#shoe
+            left 93%
+            top 92%
