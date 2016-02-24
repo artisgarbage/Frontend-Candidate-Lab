@@ -10,11 +10,11 @@ body
 
 .polaroid
     position absolute
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    transition-timing-function: 0.4s;
+    -webkit-transition all 0.4s
+    -moz-transition all 0.4s
+    -o-transition all 0.4s
+    transition all 0.4s
+    transition-timing-function: 0.4s
         
     &#celebration
         background url('../../images/polaroid-celebration.png')
@@ -60,6 +60,7 @@ body
   
 .callout
     background url('../../images/bg-callout.png') no-repeat top right 
+    
     -webkit-background-size cover
     -moz-background-size cover
     -o-background-size cover
@@ -89,7 +90,15 @@ body
         border-radius 2px
         border none
         padding 1em
+        
         &.accept
+            background-color #faa862
             background-image linear-gradient(#f7943b, #f68533)
+            &:hover
+                background-image none
         &.decline
+            background-color #676767
             background-image linear-gradient(#3b3b3b, #313131)
+            &:hover
+                background-image none
+            
